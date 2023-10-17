@@ -50,7 +50,7 @@
 
         if (!$conn) {
 
-            echo "<p>Conexion fallida: ";
+            echo "<p>Error en la conexión: ";
 
             echo odbc_errormsg($conn);
 
